@@ -21,21 +21,7 @@ public class ColorChanger : MonoBehaviour
     {
         meshRenderer.material.color = colors[Random.Range(0, colors.Length)];
     }
-    
-
-    private void OnEnable()
-    {
-        
-    }
-
-    private void OnDisable()
-    {
-       
-    }
-    private void OnMouseUp()
-    {
-        
-    }
+ 
 
     private void OnMouseDown()
     {
@@ -54,14 +40,6 @@ public class ColorChanger : MonoBehaviour
         transform.localScale = new Vector3(scale, scale, scale);
 
     }
-    private void OnMouseEnter()
-    {
-
-    }
-
-    private void OnMouseDrag()
-    {
-        
-    }
+   
 }
     
